@@ -1,0 +1,1176 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+.fondoTransparente
+{
+	/*Div que ocupa toda la pantalla*/
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	background-color:#000;
+	/*IE*/
+	filter: alpha(opacity=60);
+	/*FireFox Opera*/
+	opacity: .5;
+}
+
+#pagKernel {
+	position: absolute;
+	top: 116px;
+	left: 191px;
+	width: 1196px;
+	height: 544px;
+	margin-left: -25px;
+	background-color: rgba(255, 162, 0, 0.33);
+}
+
+/* -----------------------------INICIO - CODIGO CSS PARA FONDOS---------------------------------- */
+#fondoInicio {
+	background: url(../images/fondoInicio.png) 50% 50% no-repeat transparent;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+#fondoRegistro {
+	background: url(../images/fondoInicio.png) 50% 25% no-repeat transparent;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+#fondoRestablecer {
+	background: green;
+}
+
+#fondo {
+	background: url(../images/fondo.jpg) no-repeat transparent;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* -----------------------------FINAL - CODIGO CSS PARA FONDOS------------------------------------ */
+
+/* -------------------------INICIO - CODIGO CSS DE LA PAGINA INICIAL------------------------------ */
+#ingresoPanel {
+	text-align: center;
+	margin-top: 11%;
+	list-style-type: none;
+}
+
+#letraGrandeInicio {
+	color: #CBCBCB;
+	font-size: 55px;
+	font-family: Georgia;
+	font-style: italic;
+	margin-bottom: 24px;
+}
+
+#campoTextoI {
+	padding: 10px 15px;
+	font-size: 18px;
+	margin-bottom: 4px;
+}
+
+#registrar {
+	top: 20px;
+	right: 20px;
+	color: #EBE7E7;
+	position: absolute;
+	font-size: 19;
+	margin-top: 12px;
+	text-align: center;
+}
+
+#registrar a {
+	color: white;
+	background-color: rgba(255, 255, 255, 0.35);
+	text-decoration: none;
+	padding: 15px;
+	font-family: Arial;
+}
+
+#registrar a:HOVER {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+#restablecerPassword {
+	position: absolute;
+	left: 50%;
+	margin-left: 85px;
+	margin-top: -37px;
+	font-size: 19;
+}
+
+#errorIngreso {
+	width: 204px;
+	position: relative;
+	left: 50%;
+	margin-left: -117px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.33);
+	padding: 10px 15px;
+	color: #EBE7E7;
+	text-align: center;
+	font: bold;
+	font-family: sans-serif;
+	margin-top: 12px;
+}
+
+#botonIngreso {
+	background-color: rgb(73, 166, 11);
+	color: white;
+	border-style: solid;
+	border-color: rgb(73, 166, 11);
+	padding: 10px 60px;
+	font-size: 18;
+	margin-top: 15px;
+}
+
+#botonIngreso:HOVER {
+	background-color: rgb(64, 142, 11);
+	border-color: rgb(67, 142, 11);
+}
+/* -------------------------FINAL - CODIGO CSS DE LA PAGINA INCIAL------------------------------ */
+
+/* -------------------------INICIO - CODIGO CSS DE LA PAGINA REGISTRO------------------------------ */
+#registroPanel {
+	text-align: center;
+	margin-top: 10%;
+	list-style-type: none;
+}
+
+#letraGrandeRegistro {
+	color: #CBCBCB;
+	font-size: 47px;
+	font-family: Georgia;
+	font-style: italic;
+	margin-bottom: 24px;
+}
+
+#campoTextoR {
+	width: 230px;
+	padding: 10px 15px;
+	font-size: 18px;
+	margin-bottom: 4px;
+}
+
+#errorIngresoR {
+	left: 50%;
+	font: bold;
+	width: 233px;
+	color: #EBE7E7;
+	padding: 10px 15px;
+	position: relative;
+	margin-top: 12px;
+	text-align: center;
+	margin-left: -131px;
+	font-family: sans-serif;
+	background-color: rgba(0, 0, 0, 0.33);
+}
+
+#botonRegistro {
+	color: white;
+	padding: 10px 93px;
+	font-size: 18px;
+	margin-top: 15px;
+	border-style: solid;
+	border-color: rgb(82, 158, 204);
+	background-color: rgb(82, 158, 204);
+}
+
+#botonRegistro:HOVER {
+	background-color: rgb(0, 119, 255);
+	border-color: rgb(0, 119, 255);
+}
+
+#volverInicio {
+	position: absolute;
+	right: 40px;
+	bottom: 40px;
+	color: #EBE7E7;
+	font-size: 17;
+}
+/* -------------------------FINAL - CODIGO CSS DE LA PAGINA REGISTRO------------------------------ */
+
+/* -----------------------INICIO - CODIGO CSS DE LA PAGINA RESTABLECER---------------------------- */
+#restablecer {
+	text-align: center;
+	margin-top: 11%;
+	list-style-type: none;
+}
+
+#letraGrande {
+	color: #CBCBCB;
+	font-size: 45px;
+	font-family: Georgia;
+	font-style: italic;
+	margin-bottom: 24px;
+}
+
+#campoTextoRestablecer {
+	padding: 10px 15px;
+	font-size: 18px;
+	width: 250px;
+}
+
+#errorIngresoRestablecer {
+	width: 254px;
+	position: relative;
+	left: 50%;
+	margin-left: -141px;
+	margin-top: 8px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.33);
+	padding: 10px 15px;
+	color: #EBE7E7;
+	text-align: center;
+	font: bold;
+	font-family: sans-serif;
+}
+
+#botonCancelar {
+	margin-top: 24px;
+	margin-bottom: 16px;
+	text-align: center;
+}
+
+#botonCancelar a {
+	color: white;
+	background-color: rgb(0, 119, 255);
+	text-decoration: none;
+	padding: 12px 105px;
+	font-size: 19px;
+	font-family: sans-serif;
+}
+
+#botonCancelar a:HOVER {
+	background-color: rgb(51, 46, 255);
+}
+
+#botonRestablecer {
+	color: white;
+	width: 283px;
+	border-style: solid;
+	border-color: rgb(220, 91, 53);
+	padding: 10px 15px;
+	font-size: 19px;
+	margin-top: 8px;
+	background-color: rgb(220, 91, 53);
+}
+
+#botonRestablecer:HOVER {
+	background-color: rgb(223, 49, 22);
+	border-color: rgb(223, 49, 22);
+}
+/* ------------------------FINAL - CODIGO CSS DE LA PAGINA RESTABLECER---------------------------- */
+
+/* ------------------------INICIO - CODIGO CSS DE LA PAGINA PRINCIPAL----------------------------- */
+#letraGrandeProyecto {
+	top: 40%;
+	left: 20%;
+	color: #CBCBCB;
+	position: absolute;
+	font-size: 30px;
+	font-style: italic;
+	font-family: Georgia;
+}
+
+#letraGrandeCrearP {
+	top: 40%;
+	left: 45%;
+	color: #CBCBCB;
+	position: absolute;
+	font-size: 30px;
+	font-style: italic;
+	margin-left: -36px;
+	font-family: Georgia;
+}
+
+#letraGrandeSolicitudes {
+	top: 40%;
+	left: 70%;
+	color: #CBCBCB;
+	position: absolute;
+	font-size: 30px;
+	font-style: italic;
+	margin-left: -36px;
+	font-family: Georgia;
+}
+
+#menuProyectos {
+	top: 50%;
+	left: 20%;
+	position: absolute;
+}
+
+#menuCrearProyecto {
+	top: 50%;
+	left: 45%;
+	position: absolute;
+}
+
+#menuSolicitudes {
+	top: 50%;
+	left: 70%;
+	position: absolute;
+}
+
+#proyectosIcono {
+	content: url(../images/ingresarP.PNG);
+}
+
+#proyectosIcono:HOVER {
+	-webkit-filter: drop-shadow(12px 12px 25px rgba(255,255,255,0.5));
+    filter: url("data:image/svg+xml;utf8,<svg height='0' xmlns='http://www.w3.org/2000/svg'><filter id='drop-shadow'><feGaussianBlur in='SourceAlpha' stdDeviation='4'/><feOffset dx='12' dy='12' result='offsetblur'/><feFlood flood-color='rgba(0,0,0,0.5)'/><feComposite in2='offsetblur' operator='in'/><feMerge><feMergeNode/><feMergeNode in='SourceGraphic'/></feMerge></filter></svg>#drop-shadow");
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+#crearProyectoIcono {
+	content: url(../images/crearProyecto.PNG);
+}
+
+#crearProyectoIcono:HOVER {
+	-webkit-filter: drop-shadow(12px 12px 25px rgba(255,255,255,0.5));
+    filter: url("data:image/svg+xml;utf8,<svg height='0' xmlns='http://www.w3.org/2000/svg'><filter id='drop-shadow'><feGaussianBlur in='SourceAlpha' stdDeviation='4'/><feOffset dx='12' dy='12' result='offsetblur'/><feFlood flood-color='rgba(0,0,0,0.5)'/><feComposite in2='offsetblur' operator='in'/><feMerge><feMergeNode/><feMergeNode in='SourceGraphic'/></feMerge></filter></svg>#drop-shadow");
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+#solicitudesIcono {
+	content: url(../images/crearP.PNG);
+}
+
+#solicitudesIcono:HOVER {
+	-webkit-filter: drop-shadow(12px 12px 25px rgba(255,255,255,0.5));
+    filter: url("data:image/svg+xml;utf8,<svg height='0' xmlns='http://www.w3.org/2000/svg'><filter id='drop-shadow'><feGaussianBlur in='SourceAlpha' stdDeviation='4'/><feOffset dx='12' dy='12' result='offsetblur'/><feFlood flood-color='rgba(0,0,0,0.5)'/><feComposite in2='offsetblur' operator='in'/><feMerge><feMergeNode/><feMergeNode in='SourceGraphic'/></feMerge></filter></svg>#drop-shadow");
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+/* -------------------------FINAL - CODIGO CSS DE LA PAGINA PRINCIPAL----------------------------- */
+
+/* ------------------------INICIO - CODIGO CSS DE CREACION DE PROYECTO---------------------------- */
+#creacionProyecto {
+	text-align: center;
+	margin-top: 3%;
+	list-style-type: none;
+}
+
+#letraGrande {
+	color: #CBCBCB;
+	font-size: 47px;
+	font-style: italic;
+	font-family: Georgia;
+	margin-bottom: 24px;
+}
+
+#campoTexto {
+	width: 350px;
+	padding: 10px 15px;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+#campoArea {
+	width: 350px;
+	height: 130px;
+	resize: none;
+	padding: 10px 15px;
+	font-size: 18px;
+	margin-top: 5px;
+	font-family: sans-serif;
+	margin-bottom: 5px;
+}
+
+#botonCrear {
+	color: white;
+	padding: 10px 79px;
+	font-size: 26px;
+	margin-top: 25px;
+	border-style: solid;
+	border-color: rgb(82, 158, 204);
+	background-color: rgb(82, 158, 204);
+	margin-top: 25px;
+}
+
+#botonCrear:HOVER {
+	background-color: rgb(0, 119, 255);
+	border-color: rgb(0, 119, 255);
+}
+/* ------------------------FINAL - CODIGO CSS DE CREACION DE PROYECTO---------------------------- */
+
+/* ------------------------INICIO - CODIGO CSS DE VISTA DE PROYECTOS----------------------------- */
+#noProyecto {
+	color: #CBCBCB;
+	font-size: 47px;
+	margin-top: 245px;
+	text-align: center;
+	font-style: italic;
+	font-family: Georgia;
+}
+
+#listaProyectos {
+	margin-top: 120px;
+	text-align: center;
+}
+
+#listaProyectos a {
+	color: #CBCBCB;
+	font-size: 47px;
+	font-style: italic;
+	font-family: Georgia;
+	text-decoration: none;
+}
+
+#listaProyectos :HOVER{
+	text-shadow: 5px 5px 35px #FFF;
+}
+
+/* -------------------------FINAL - CODIGO CSS DE VISTA DE PROYECTOS----------------------------- */
+
+/* ----------------------INICIO - CODIGO CSS DE LA PAGINA TO DO Y DOING--------------------------- */
+#botonRealizando {
+	right: 20px;
+	top: 438px;
+	color: white;
+	position: absolute;
+	padding: 10px 15px;
+	font-size: 18px;
+	border-style: solid;
+	border-color: rgb(73, 166, 11);
+	background-color: rgb(73, 166, 11);
+}
+
+#tareasToDoDoingDone a {
+	color: black;
+	text-decoration: none;	
+}
+
+#botonRealizando:HOVER {
+	background-color: rgb(64, 142, 11);
+	border-color: rgb(67, 142, 11);
+}
+
+#agregarTareaIcono {
+	top: 600px;
+	left: 200px;
+	position: absolute;
+	content: url(../images/agregarIcono.png);
+}
+
+#eliminarTareaIcono {
+	top: 600px;
+	left: 260px;
+	position: absolute;
+	content: url(../images/eliminarIcono.png);
+}
+
+#agregarTareaIcono:HOVER, #editarTareaIcono:HOVER, #eliminarTareaIcono:HOVER {
+	-webkit-filter: drop-shadow(5px 5px 15px rgb(255,255,255));
+    filter: url("data:image/svg+xml;utf8,<svg height='0' xmlns='http://www.w3.org/2000/svg'><filter id='drop-shadow'><feGaussianBlur in='SourceAlpha' stdDeviation='4'/><feOffset dx='12' dy='12' result='offsetblur'/><feFlood flood-color='rgba(0,0,0,0.5)'/><feComposite in2='offsetblur' operator='in'/><feMerge><feMergeNode/><feMergeNode in='SourceGraphic'/></feMerge></filter></svg>#drop-shadow");
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+/* -----------------------FINAL - CODIGO CSS DE LA PAGINA TO DO Y DOING--------------------------- */
+
+/* ---------------------------INICIO - CODIGO CSS DE EDITAR USUARIO------------------------------- */
+#editarPanel {
+	text-align: center;
+	margin-top: 5%;
+	list-style-type: none;
+}
+
+#letraGrandeEditar {
+	color: #CBCBCB;
+	font-size: 40px;
+	font-family: Georgia;
+	font-style: italic;
+	margin-bottom: 24px;
+}
+
+#campoTextoE {
+	width: 260px;
+	padding: 10px 15px;
+	font-size: 18px;
+	margin-bottom: 4px;
+	readonly: readonly;
+}
+
+#errorIngresoR {
+	left: 50%;
+	font: bold;
+	width: 233px;
+	color: #EBE7E7;
+	padding: 10px 15px;
+	position: relative;
+	margin-top: 12px;
+	text-align: center;
+	margin-left: -131px;
+	font-family: sans-serif;
+	background-color: rgba(0, 0, 0, 0.33);
+}
+
+#botonEditar {
+	color: white;
+	padding: 10px 106px;
+	font-size: 18px;
+	margin-top: 15px;
+	border-style: solid;
+	border-color: rgb(82, 158, 204);
+	background-color: rgb(82, 158, 204);
+}
+
+#botonEditar:HOVER {
+	background-color: rgb(0, 119, 255);
+	border-color: rgb(0, 119, 255);
+}
+/* ----------------------------FINAL - CODIGO CSS DE EDITAR USUARIO------------------------------- */
+
+/* ---------------------------INICIO - CODIGO CSS DE PERFIL USUARIO------------------------------- */
+#perfilPanel {
+	color: white;
+	font-size: 25px;
+	margin-top: 5%;
+	text-align: center;
+	list-style-type: none;
+}
+
+#perfilPanel li {
+	padding-bottom: 10px;
+}
+
+#botonesPerfil {
+	position: fixed;
+	left: 50%;
+	margin-left: -120px;
+	color: white;
+	font-size: 25px;
+	margin-top: 30px;
+	text-align: center;
+	list-style-type: none;
+}
+
+#botonesPerfil li {
+	margin: 4px;
+	float: left;
+}
+
+#botonEditarPerfil {
+	border: none;
+	background-color: rgb(82, 158, 204);
+}
+
+#botonEditarPerfil a {
+	color: white;
+	display: block;
+	padding: 10px 30px;
+	font-size: 22px;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+#botonEditarPerfil:HOVER {
+	background-color: rgb(51, 46, 255);
+}
+
+#botonEliminarPerfil {
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-size: 22px;
+	background-color: rgb(220, 70, 53);
+}
+
+#botonEliminarPerfil:HOVER {
+	background-color: rgb(223, 49, 22);
+	border-color: rgb(223, 49, 22);
+}
+
+#botonAcualizarProyecto {
+	color: white;
+	padding: 10px 141px;
+	font-size: 22px;
+	margin-top: 15px;
+	border-style: solid;
+	border-color: rgb(82, 158, 204);
+	background-color: rgb(82, 158, 204);
+}
+
+#botonAcualizarProyecto:HOVER {
+	background-color: rgb(0, 119, 255);
+	border-color: rgb(0, 119, 255);
+}
+
+/* ----------------------------FINAL - CODIGO CSS DE PERFIL USUARIO------------------------------- */
+
+/* ---------------------------INICIO - CODIGO CSS DE DETALLES PROYECTO------------------------------- */
+#proyectoDetalles {
+	color: white;
+	font-size: 25px;
+	margin-top: 5%;
+	text-align: center;
+	list-style-type: none;
+}
+
+#proyectoDetalles li {
+	padding-bottom: 10px;
+}
+
+#letraGrandeTareaMostrar {
+	color: white;
+	font-size: 40px;
+	font-family: Georgia;
+	font-style: italic;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+#botonesProyecto {
+	position: fixed;
+	left: 50%;
+	margin-left: -192px;
+	color: white;
+	font-size: 25px;
+	margin-top: 30px;
+	text-align: center;
+	list-style-type: none;
+}
+
+#botonesProyecto li {
+	margin: 4px;
+	float: left;
+}
+
+#botonEditarProyecto {
+	border: none;
+	background-color: rgb(82, 158, 204);
+}
+
+#botonEditarProyecto a {
+	color: white;
+	display: block;
+	padding: 10px 65px;
+	font-size: 22px;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+#botonEditarProyecto:HOVER {
+	background-color: rgb(51, 46, 255);
+}
+
+#botonEliminarProyecto {
+	color: white;
+	border: none;
+	padding: 10px 53px;
+	font-size: 22px;
+	background-color: rgb(220, 70, 53);
+}
+
+#botonEliminarProyecto:HOVER {
+	background-color: rgb(223, 49, 22);	
+}
+
+/* ----------------------------FINAL - CODIGO CSS DE DETALLES PROYECTO------------------------------- */
+
+/* -----------------------------INICIO - CODIGO CSS DE AGREGAR TAREA-------------------------------- */
+#agregarTareaPanel {
+	position: absolute;
+	right: 4px;
+	top: 4px;
+	width: 400px;
+	height: 504px;
+	color: white;
+	font-family: sans-serif;
+	font-size: 13px;
+	background-color: green;
+	text-align: center;
+	margin-top: 11%;
+	list-style-type: none;
+}
+
+#letraGrandeTareaCrear {
+	color: white;
+	font-size: 50px;
+	font-family: Georgia;
+	font-style: italic;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+#campoTextoT {
+	width: 280px;
+	padding: 10px 15px;
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+
+#campoAreaT {
+	width: 280px;
+	height: 90px;
+	resize: none;
+	padding: 10px 15px;
+	font-size: 18px;
+	margin-top: 5px;
+	font-family: sans-serif;
+	margin-bottom: 5px;
+}
+
+#botonCrearTarea {
+	color: white;
+	padding: 10px 93px;
+	font-size: 18px;
+	margin-top: 15px;
+	border-style: solid;
+	border-color: rgb(82, 158, 204);
+	background-color: rgb(82, 158, 204);
+}
+
+#botonCrearTarea:HOVER {
+	background-color: rgb(0, 119, 255);
+	border-color: rgb(0, 119, 255);
+}
+/* -----------------------------FINAL - CODIGO CSS DE AGREGAR TAREA-------------------------------- */
+
+/* ----------------------------INICIO - CODIGO CSS DE MOSTRAR TAREA-------------------------------- */
+#detallesTareaPanel {
+	right: 4px;
+	top: 4px;
+	width: 400px;
+	height: 504px;
+	color: white;
+	position: absolute;
+	font-size: 13px;
+	text-align: center;
+	margin-top: 11%;
+	font-family: sans-serif;
+	background-color: green;
+	list-style-type: none;
+}
+
+#detallesTareaPanel li{
+	line-height: 55px;
+}
+
+#letraGrandeTarea {
+	color: white;
+	font-size: 40px;
+	font-family: Georgia;
+	font-style: italic;
+	margin-top: 37px;
+	margin-bottom: 20px;
+}
+
+#campoTextoD1 {
+	left: 5px;
+	width: 250px;
+	padding: 10px 15px;
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+
+#campoTextoD2 {
+	width: 250px;
+	padding: 10px 15px;
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+
+#campoTextoD3 {
+	width: 252px;
+	height: 90px;
+	resize: none;
+	padding: 10px 15px;
+	font-size: 18px;
+	margin-top: 5px;
+	margin-left: 63px;
+	font-family: sans-serif;
+	margin-bottom: 5px;
+}
+
+#letraDescripcion {
+	position: absolute;
+	left: 13px;
+}
+
+#fechasTarea {
+	margin-top: -35px;
+}
+
+#botonEditarTarea {
+	border: none;
+	line-height: 25px;
+	display:inline-block;
+	background-color: rgb(82, 158, 204);
+}
+
+#botonEditarTarea a {
+	color: white;
+	display: block;
+	padding: 10px 85px;
+	font-size: 22px;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+#botonEditarTarea:HOVER {
+	background-color: rgb(0, 119, 255);
+}
+
+#botonActualizarTarea {
+	color: white;
+	padding: 10px 93px;
+	font-size: 18px;
+	margin-top: 15px;
+	border-style: solid;
+	border-color: rgb(82, 158, 204);
+	background-color: rgb(82, 158, 204);
+}
+
+#botonActualizarTarea:HOVER {
+	background-color: rgb(0, 119, 255);
+	border-color: rgb(0, 119, 255);
+}
+/* ----------------------------FINAL - CODIGO CSS DE MOSTRAR TAREA-------------------------------- */
+
+/* -----------------------INICIO - CODIGO CSS DE LA BARRA DE USUARIO---------------------------- */
+#panelSuperior {
+	height: 110px;
+	background-color: rgba(255, 255, 255, 0.15);
+}
+
+#volverMenu {
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	margin-left: -25px;
+}
+
+#volverMenu:HOVER {
+	-webkit-filter: drop-shadow(12px 12px 25px rgba(255,255,255,0.2));
+    filter: url("data:image/svg+xml;utf8,<svg height='0' xmlns='http://www.w3.org/2000/svg'><filter id='drop-shadow'><feGaussianBlur in='SourceAlpha' stdDeviation='4'/><feOffset dx='12' dy='12' result='offsetblur'/><feFlood flood-color='rgba(0,0,0,0.5)'/><feComposite in2='offsetblur' operator='in'/><feMerge><feMergeNode/><feMergeNode in='SourceGraphic'/></feMerge></filter></svg>#drop-shadow");
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+#logoSemat {
+	content: url(../images/Logo4.png);
+}
+
+#logoCerrarSesion {
+	content: url(../images/salir.png);
+}
+
+#nombreCuenta {
+	top: 30px;
+	left: 280px;
+	padding: 5px 20px;
+	position: absolute;
+}
+
+#nombreCuenta a {
+	color: white;
+	font-size: 32px;
+	font-family: Georgia;
+	font-style: italic;
+	text-decoration: none;
+}
+
+#nombreCuenta:HOVER {
+  	text-shadow: 5px 5px 35px #FFF;
+}
+
+#cerrarSesion {
+	position: absolute;
+	top: 3%;
+	left: 94%;
+}
+
+#cerrarSesion:HOVER {
+    -webkit-filter: drop-shadow(12px 12px 25px rgba(255,255,255,0.5));
+    filter: url("data:image/svg+xml;utf8,<svg height='0' xmlns='http://www.w3.org/2000/svg'><filter id='drop-shadow'><feGaussianBlur in='SourceAlpha' stdDeviation='4'/><feOffset dx='12' dy='12' result='offsetblur'/><feFlood flood-color='rgba(0,0,0,0.5)'/><feComposite in2='offsetblur' operator='in'/><feMerge><feMergeNode/><feMergeNode in='SourceGraphic'/></feMerge></filter></svg>#drop-shadow");
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+#nombreProyecto {
+	position: absolute;
+	top: 37px;
+	left: 860px;
+	color: white;
+	font-size: 32px;
+	font-family: Georgia;
+	font-style: italic;
+}
+
+#nombreProyecto:HOVER {
+	text-shadow: 5px 5px 35px #FFF;
+}
+
+/* -----------------------FINAL - CODIGO CSS DE LA BARRA DE USUARIO---------------------------- */
+
+/* -------------------------INICIO - CODIGO CSS DE LA BARRA LATERAL------------------------------ */
+#barraLateral {
+	position: fixed;
+	list-style-type: none;
+}
+
+#barraLateral li {
+	width: 160px;
+	height: 269px;
+	margin: 5px 2px;
+	text-align: center;
+	line-height: 269px;
+	background-color: rgba(64, 142, 11, 0.25);
+}
+
+#barraLateral a {
+	color: rgb(64, 88, 61);
+	display: block;
+	font-size: 30px;
+	font-style: italic;
+	font-family: cursive;
+	text-decoration: none;
+}
+
+#barraLateral li :hover {
+	background-color: rgba(64, 142, 11, 0.4);
+}
+
+#barraLateral a:hover {
+	color: white;
+}
+
+#barraLateral li.activa {
+	color: white;
+	font-size: 36px;
+	font-style: italic;
+	font-family: cursive;
+	background-color: rgba(64, 142, 11, 0.8);
+}
+/* -------------------------FINAL - CODIGO CSS DE LA BARRA LATERAL------------------------------ */
+
+/* -----------------------INICIO - CODIGO CSS DE LA BARRA DE BACKLOG---------------------------- */
+#barraBacklog {
+	left: 164px;
+	position: fixed;
+	list-style-type: none;
+}
+
+#barraBacklog li {
+	float: left;
+	width: 396px;
+	height: 40px;
+	margin: 5px 2px;
+	text-align: center;
+	line-height: 40px;
+	background-color: rgba(235, 162, 0, 0.12);
+}
+
+#barraBacklog a {
+	color: gray;
+	display: block;
+	font-size: 20px;
+	font-style: italic;
+	font-family: cursive;
+	text-decoration: none;
+}
+
+#barraBacklog li:hover {
+	background-color: rgba(235, 162, 0, 0.5);
+}
+
+#barraBacklog a:hover {
+	color: white;
+}
+
+#barraBacklog li.activa {
+	background-color: rgba(255, 162, 0, 0.33);
+	color: white;
+	font-size: 25px;
+	font-style: italic;
+	font-family: cursive;
+}
+
+#pagBacklog {
+	top: 155px;
+	left: 166px;
+	width: 1166px;
+	height: 483px;
+	padding:10px 15px;
+	position: absolute;
+	background-color: rgba(255, 162, 0, 0.33);
+}
+/* -----------------------FINAL - CODIGO CSS DE LA BARRA DE BACKLOG---------------------------- */
+
+/* -----------------------INICIO - CODIGO CSS DE LAS CARTAS---------------------------- */
+#card {
+	border: blue 2px solid;
+	clear: both;
+	text-align: center;
+	top: 10px;
+	left: 10px max-width: 210px;
+	box-shadow: 5px 5px 5px #888888;
+	background-color: #FFFFFF;
+	width: 210px;
+	height: 270px;
+	position: relative;
+}
+
+#cardHeader {
+	width: 210px;
+	height: 70xp;
+	font-size: 10pt;
+	binding: 10px;
+	background-color: #3399FF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#cardContent {
+	text-align: left;
+	margin: 10px;
+	font-size: 9pt;
+	overflow-y: scroll;
+	max-height: 110px;
+	min-height: 110px;
+}
+
+#b1 {
+	border: blue 2px solid;
+	border-radius: 5px;
+	font-weight: bold;
+	text-align: center;
+	padding: 3px;
+	margin: 10px;
+	min-height: 38px;
+}
+
+#b2 {
+	border: blue 2px solid;
+	background-color: #CCE6FF;
+	border-radius: 5px;
+	height: 100xp;
+	binding: 10px;
+	text-align: center;
+	font-weight: bold;
+	margin: 10px;
+	position: relative;
+	bottom: 3px;
+	padding: 3px;
+}
+
+input {
+	vertical-align: bottom;
+	position: relative;
+}
+
+#greenCard {
+	border: #006600 2px solid;
+	clear: both;
+	text-align: center;
+	top: 10px;
+	left: 10px max-width: 210px;
+	box-shadow: 5px 5px 5px #522900;
+	background-color: #FFFFFF;
+	width: 210px;
+	height: 270px;
+	position: relative;
+}
+#greenCardHeader {
+	width: 210px;
+	height: 70xp;
+	font-size: 10pt;
+	binding: 10px;
+	background-color: #6CC46C;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#g1 {
+	border: #006600 2px solid;
+	border-radius: 5px;
+	font-weight: bold;
+	text-align: center;
+	padding: 3px;
+	margin: 10px;
+	min-height: 38px;
+}
+
+#g2 {
+	border: #006600 2px solid;
+	background-color: #CCFFCC;
+	border-radius: 5px;
+	height: 100xp;
+	binding: 10px;
+	text-align: center;
+	font-weight: bold;
+	margin: 10px;
+
+	margin-bottom: 20px;
+	bottom: 3px;
+	padding: 3px;
+}
+
+
+#yellowCard {
+	border: #CC9900 2px solid;
+	clear: both;
+	text-align: center;
+	top: 10px;
+	left: 10px max-width: 210px;
+	box-shadow: 5px 5px 5px #888888;
+	background-color: #FFFFFF;
+	width: 210px;
+	height: 270px;
+	position: relative;
+}
+
+
+#yellowCardHeader {
+	width: 210px;
+	height: 70xp;
+	font-size: 10pt;
+	binding: 10px;
+	background-color: #FFFF66;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#y1 {
+	border: #CC9900 2px solid;
+	border-radius: 5px;
+	font-weight: bold;
+	text-align: center;
+	padding: 3px;
+	margin: 10px;
+	min-height: 38px;
+}
+
+#y2 {
+	border: #CC9900 2px solid;
+	background-color: #FFFF80;
+	border-radius: 5px;
+	height: 100xp;
+	binding: 10px;
+	text-align: center;
+	font-weight: bold;
+	margin: 10px;
+	position: relative;
+	bottom: 3px;
+	padding: 3px;
+}
+/*-------------------------- FINAL - CODIGO CSS DE LAS CARTAS ---------------------------*/
